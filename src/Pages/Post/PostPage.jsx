@@ -41,7 +41,7 @@ export default function PostPage() {
         <p>{post.content}</p>
         <div style={{marginTop: '20px', marginBottom: '20px'}}>
           <span style={{fontSize: '18px', color: isLiked ? '#ff6b6b' : '#667eea'}}>
-            ❤️ {totalLikes} {totalLikes === 1 ? 'like' : 'likes'}
+             {totalLikes} {totalLikes === 1 ? 'like' : 'likes'}
           </span>
         </div>
         <h3>Comments:</h3>
