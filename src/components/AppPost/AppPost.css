@@ -1,0 +1,16 @@
+.likes_comment {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+.postContainer{
+    border: 2px solid #6d96ca;
+    border-radius: 10px;
+    padding: 20px;
+}
+.postText{
+    cursor: pointer;
+}
+.postText:hover{
+    color: #3b587e;
+}

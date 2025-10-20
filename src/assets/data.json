@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with React",
+    "excerpt": "A beginner-friendly guide to understanding the basics of React...",
+    "content": "React is a JavaScript library for building user interfaces. It allows you to create reusable UI components and manage the application state efficiently. In this post, we'll explore how to create your first React component and render it on the screen...",
+    "likes": 0,
+    "url" : "post_1.png",
+    "comments": [
+      { "id": 1, "author": "Alice", "text": "Great introduction, thanks!" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Understanding React Router",
+    "excerpt": "Navigation in React apps made simple with React Router...",
+    "content": "React Router is a powerful library that enables dynamic routing in React applications. You can define routes for different pages like Home, About, and Post. In this article, we'll learn how to install and configure React Router step by step...",
+    "likes": 3,
+    "url" : "post_2.png",
+    "comments": []
+  },
+  {
+    "id": 3,
+    "title": "Managing State with useState Hook",
+    "excerpt": "Learn how to store and update data inside your components...",
+    "content": "The useState hook allows you to add state to functional components. For example, you can use it to manage form inputs, likes, or toggle UI elements. Let's walk through some real examples of how to use useState in everyday React code...",
+    "likes": 1,
+    "url" : "post_3.png",
+    "comments": [
+      { "id": 1, "author": "Bob", "text": "Very helpful explanation!" },
+      { "id": 2, "author": "Charlie", "text": "Now I finally understand hooks." }
+    ]
+  }
+]

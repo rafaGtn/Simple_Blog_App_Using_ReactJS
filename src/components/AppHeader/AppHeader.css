@@ -1,0 +1,28 @@
+.navMenu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    font-size: 18px;
+    height: 50px;
+}
+.navMenu li{
+    width: 100px;
+    text-align: center;
+
+}
+.navMenu li a:hover{
+    color: #5898f7;
+        font-size: 20px;
+}
+.navMenu li a{
+    color: white;
+    text-decoration: none;
+}
+.header{
+    margin-bottom: 20px;
+    background-color: rgb(59, 59, 59);
+    
+}
