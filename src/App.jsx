@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <AppHeader />
-      <div style={{maxWidth: '800px', margin: '0 auto', padding: '20px'}}>
+      <div style={{maxWidth: '800px', margin: '0 auto', padding: '60px 20px'}}>
        <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/post/:id" element={<PostPage />} />

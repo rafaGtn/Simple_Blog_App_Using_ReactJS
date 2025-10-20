@@ -56,7 +56,7 @@ export default function PostPage() {
         <AppButton onClick={handleAddComment} className="addCommentButton">
           Add Comment
         </AppButton>
-        <div>
+        <div style={{marginTop: '10px'}}>
           {allComments.length > 0 ? (
             allComments.map((comment) => (
               <div key={comment.id} style={{marginBottom: '10px', padding: '10px', border: '1px solid #ddd', borderRadius: '5px', backgroundColor: '#f9f9f9'}}>

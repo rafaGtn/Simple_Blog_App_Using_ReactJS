@@ -29,7 +29,7 @@ export default function AppPost({post}) {
         <div className="likes_comment">
             <AppButton onClick={handleToggleLike}>
                 <img src="likes-logo.png" height={30} alt="likes"/>
-                <p style={{color: isLiked ? '#ff6b6b' : 'inherit'}}>{totalLikes}</p>
+                <p style={{color: isLiked ? '#4f7e49ff' : 'inherit', fontWeight: isLiked ? '700' : 'normal'}}>{totalLikes}</p>
             </AppButton>
             <AppButton onClick={handleNavigate}>
                 <img src="comment-logo.png" height={30} alt="comments"/>
